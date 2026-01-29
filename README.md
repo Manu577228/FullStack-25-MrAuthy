@@ -44,9 +44,9 @@ This project is designed to mirror how authentication systems are built in <b>ac
 
 <table>
 <tr><th align="left">Layer</th><th align="left">Technologies</th></tr>
-<tr><td>Backend</td><td>Java 17, Spring Boot, Spring Security, JWT, Hibernate/JPA, Maven</td></tr>
+<tr><td>Backend</td><td>Java 21, Spring Boot, Spring Security, JWT, Hibernate/JPA, Maven</td></tr>
 <tr><td>Database</td><td>MySQL / PostgreSQL (Configurable)</td></tr>
-<tr><td>Frontend</td><td>React (Vite), Context API, Axios, CSS</td></tr>
+<tr><td>Frontend</td><td>React-19(Vite), Context API, Axios, CSS</td></tr>
 <tr><td>Security</td><td>JWT Tokens, Password Hashing, Role-Based Access Control</td></tr>
 </table>
 
@@ -173,9 +173,9 @@ Authorization: Bearer &lt;JWT_TOKEN&gt;
 <pre>
 JWT_SECRET=your_secret_key
 JWT_EXPIRATION=86400000
-DB_URL=jdbc:mysql://localhost:3306/auth_db
+DB_URL=jdbc:mysql://localhost:3306/db_name
 DB_USERNAME=root
-DB_PASSWORD=password
+DB_PASSWORD=yourdbpassword
 </pre>
 
 <hr>
